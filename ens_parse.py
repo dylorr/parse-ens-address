@@ -1,7 +1,7 @@
 # region WEB3/ENS INTEGRATION
 from web3 import Web3
 import pandas as pd
-infura_url = 'https://mainnet.infura.io/v3/e187dce07e71440495048ced60462b0c'
+infura_url = 'https://mainnet.infura.io/v3/[auth]'
 w3 = Web3(Web3.HTTPProvider(infura_url))
 from ens import ENS
 ns = ENS.fromWeb3(w3)
